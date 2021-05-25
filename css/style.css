@@ -39,7 +39,7 @@ body{
 .instagram-continue{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
@@ -58,10 +58,16 @@ body{
 
 .group:nth-child(1){
     min-height: 19rem;
+    margin-bottom: 15px;
 }
 
-.instagram.logo{
+.instagram-logo{
     height: 3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Andale Mono, monospace;
+    margin-bottom: 5px;
 }
 
 .profile-photo{
