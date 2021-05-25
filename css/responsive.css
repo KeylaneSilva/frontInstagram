@@ -1,0 +1,42 @@
+@media screen and (max-width: 1300px){
+    .instagram-phone{
+        display: none;
+    }
+    
+    .instagram-continue{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .instagram-logo {
+        width: 10px;
+        color: green;
+    }
+}
+
+@media screen and (max-width: 411px){
+    .instagram-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100;
+    }  
+    
+}
+
+@media screen and (max-width: 1040px) {
+    .download{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app-download{
+        margin-top: 7px;
+        
+    }
+}
